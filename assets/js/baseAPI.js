@@ -3,6 +3,7 @@ $(function () {
         console.log(option.url)
         let baseurl = 'http://api-breakingnews-web.itheima.net';
         option.url = baseurl + option.url
+<<<<<<< HEAD
         option.complete = function (res) {
             console.log(res)
             let holdUp = res.responseJSON
@@ -16,5 +17,7 @@ $(function () {
             }
 
         }
+=======
+>>>>>>> 5e7535a410b9e27628f4615787355264aabd7608
     })
 })
