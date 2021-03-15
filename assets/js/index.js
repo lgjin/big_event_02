@@ -2,7 +2,7 @@ $(function () {
     //获取用户信息,多次用到封装函数
     getUserInfo()
     //退出登录
-    $('.layui-nav-item').on('click', function () {
+    $('#exit').on('click', function () {
         //eg1
         layer.confirm('确认退出?', { icon: 3, title: '提示' }, function (index) {
             //do something
